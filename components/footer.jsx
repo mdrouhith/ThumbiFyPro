@@ -18,8 +18,9 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
         >
-            <a href="https://prebuiltui.com?utm_source=genesis">
+            <a href="#home" className="flex flex-col items-center gap-2">
                 <Image src='/assets/logo.svg' alt='logo' className='h-8.5 w-auto' width={205} height={48} />
+                <span className="text-xs uppercase tracking-[0.3em] text-gray-300">CrafCodeer</span>
             </a>
 
             <div className="flex flex-wrap items-center justify-center gap-8 py-8">
@@ -45,8 +46,8 @@ export default function Footer() {
             </div>
             <hr className="w-full border-white/20 mt-6" />
             <div className="flex flex-col md:flex-row items-center w-full justify-between gap-4 py-4">
-                <p>Build high‑performing thumbnails in minutes</p>
-                <p>Copyright © 2025 <a href="#home">Thumbnail Studio</a>. All rights reserved.</p>
+                <p>CrafCodeer builds premium AI tools for creators</p>
+                <p>Copyright © 2025 <a href="#home">CrafCodeer</a>. All rights reserved.</p>
             </div>
         </motion.footer>
     );
